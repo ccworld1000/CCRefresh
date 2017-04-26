@@ -30,7 +30,7 @@ pod 'CCRefresh'
 ***
 
 [Usage : Similar MJRefresh
-, just repalce "MJ\*" to "CC\*"] (https://github.com/CoderMJLee/MJRefresh/blob/master/README.md)
+, just repalce "MJ\*" to "CC\*"](https://github.com/CoderMJLee/MJRefresh/blob/master/README.md)
 
 
 
