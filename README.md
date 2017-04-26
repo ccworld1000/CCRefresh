@@ -9,6 +9,9 @@ support iOS
 
 Email ： <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
 
+## Custom or Translate
+[CCRefreshTranslate2DB detail](https://github.com/ccworld1000/CCRefreshTranslate2DB) 
+
 
 # Reference
 [MJRefresh](https://github.com/CoderMJLee/MJRefresh) 
