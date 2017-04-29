@@ -10,6 +10,8 @@
 
 #import "HSUtilities.h"
 
+#import "CCRefreshDatabase.h"
+
 #import "UILabel+CCRefresh.h"
 #import "UIScrollView+CCRefresh.h"
 #import "UIScrollView+Geometry.h"

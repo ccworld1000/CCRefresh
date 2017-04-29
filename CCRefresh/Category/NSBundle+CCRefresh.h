@@ -12,7 +12,13 @@
 
 + (instancetype)CCRefreshBundle;
 + (UIImage *)CCArrowImage;
-+ (NSString *)CCLocalizedStringForKey:(NSString *)key value:(NSString *)value;
 + (NSString *)CCLocalizedStringForKey:(NSString *)key;
+
+/**
+ *  CCRefreshTranslate2DB | default database
+ *
+ *  @return return value description
+ */
++ (NSString *) CCRefreshTranslate2DB;
 
 @end

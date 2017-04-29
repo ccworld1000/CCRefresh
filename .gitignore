@@ -1,3 +1,5 @@
+*.db-shm
+*.db-wal
 .swift-version
 CCRefresh.podspec
 Pods
