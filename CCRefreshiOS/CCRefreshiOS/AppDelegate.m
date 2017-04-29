@@ -19,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UIApplication sharedApplication] setStatusBarHidden: YES withAnimation: UIStatusBarAnimationNone];
     [CCStat loadingMobStat:CCStatTypeCCRefresh showDetail:NO];
     
     [CCRefreshDatabase loadingDefaultLanguage];

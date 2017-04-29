@@ -17,6 +17,13 @@
 		186E141E1EB4979B00F1AF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E141C1EB4979B00F1AF8F /* LaunchScreen.storyboard */; };
 		186E142D1EB4E13700F1AF8F /* CCWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E142C1EB4E13700F1AF8F /* CCWeb.m */; };
 		186E14311EB4E82100F1AF8F /* CCCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E14301EB4E82100F1AF8F /* CCCollection.m */; };
+		186E14351EB5099400F1AF8F /* CCChiBaoZiFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E14341EB5099400F1AF8F /* CCChiBaoZiFooter.m */; };
+		186E14381EB50A0F00F1AF8F /* CCChiBaoZiFooter2.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E14371EB50A0F00F1AF8F /* CCChiBaoZiFooter2.m */; };
+		186E143B1EB50A7000F1AF8F /* CCChiBaoZiHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E143A1EB50A7000F1AF8F /* CCChiBaoZiHeader.m */; };
+		186E143E1EB50AB700F1AF8F /* CCDIYAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E143D1EB50AB700F1AF8F /* CCDIYAutoFooter.m */; };
+		186E14411EB50B1E00F1AF8F /* CCDIYBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E14401EB50B1E00F1AF8F /* CCDIYBackFooter.m */; };
+		186E14441EB50B8C00F1AF8F /* CCDIYHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E14431EB50B8C00F1AF8F /* CCDIYHeader.m */; };
+		186E14481EB50CE300F1AF8F /* CCDIYTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E14471EB50CE300F1AF8F /* CCDIYTab.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +43,20 @@
 		186E142C1EB4E13700F1AF8F /* CCWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCWeb.m; sourceTree = "<group>"; };
 		186E142F1EB4E82100F1AF8F /* CCCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCollection.h; sourceTree = "<group>"; };
 		186E14301EB4E82100F1AF8F /* CCCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCollection.m; sourceTree = "<group>"; };
+		186E14331EB5099400F1AF8F /* CCChiBaoZiFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCChiBaoZiFooter.h; sourceTree = "<group>"; };
+		186E14341EB5099400F1AF8F /* CCChiBaoZiFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCChiBaoZiFooter.m; sourceTree = "<group>"; };
+		186E14361EB50A0F00F1AF8F /* CCChiBaoZiFooter2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCChiBaoZiFooter2.h; sourceTree = "<group>"; };
+		186E14371EB50A0F00F1AF8F /* CCChiBaoZiFooter2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCChiBaoZiFooter2.m; sourceTree = "<group>"; };
+		186E14391EB50A7000F1AF8F /* CCChiBaoZiHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCChiBaoZiHeader.h; sourceTree = "<group>"; };
+		186E143A1EB50A7000F1AF8F /* CCChiBaoZiHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCChiBaoZiHeader.m; sourceTree = "<group>"; };
+		186E143C1EB50AB700F1AF8F /* CCDIYAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDIYAutoFooter.h; sourceTree = "<group>"; };
+		186E143D1EB50AB700F1AF8F /* CCDIYAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDIYAutoFooter.m; sourceTree = "<group>"; };
+		186E143F1EB50B1E00F1AF8F /* CCDIYBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDIYBackFooter.h; sourceTree = "<group>"; };
+		186E14401EB50B1E00F1AF8F /* CCDIYBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDIYBackFooter.m; sourceTree = "<group>"; };
+		186E14421EB50B8C00F1AF8F /* CCDIYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDIYHeader.h; sourceTree = "<group>"; };
+		186E14431EB50B8C00F1AF8F /* CCDIYHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDIYHeader.m; sourceTree = "<group>"; };
+		186E14461EB50CE300F1AF8F /* CCDIYTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDIYTab.h; sourceTree = "<group>"; };
+		186E14471EB50CE300F1AF8F /* CCDIYTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDIYTab.m; sourceTree = "<group>"; };
 		1AA260A2EC4578F30C73BD00 /* libPods-CCRefreshiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCRefreshiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42256113F67490DD7D8F7FD2 /* Pods-CCRefreshiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRefreshiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCRefreshiOS/Pods-CCRefreshiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FA2CADEBC3725F2AF06A8BE0 /* Pods-CCRefreshiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRefreshiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCRefreshiOS/Pods-CCRefreshiOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +95,8 @@
 		186E140A1EB4979B00F1AF8F /* CCRefreshiOS */ = {
 			isa = PBXGroup;
 			children = (
+				186E14451EB50CCD00F1AF8F /* CCDIYTab */,
+				186E14321EB507A000F1AF8F /* CCDIY */,
 				186E142E1EB4E7AE00F1AF8F /* CCCollection */,
 				186E142A1EB4E10E00F1AF8F /* CCWeb */,
 				186E140E1EB4979B00F1AF8F /* AppDelegate.h */,
@@ -115,6 +138,34 @@
 				186E14301EB4E82100F1AF8F /* CCCollection.m */,
 			);
 			path = CCCollection;
+			sourceTree = "<group>";
+		};
+		186E14321EB507A000F1AF8F /* CCDIY */ = {
+			isa = PBXGroup;
+			children = (
+				186E14331EB5099400F1AF8F /* CCChiBaoZiFooter.h */,
+				186E14341EB5099400F1AF8F /* CCChiBaoZiFooter.m */,
+				186E14361EB50A0F00F1AF8F /* CCChiBaoZiFooter2.h */,
+				186E14371EB50A0F00F1AF8F /* CCChiBaoZiFooter2.m */,
+				186E14391EB50A7000F1AF8F /* CCChiBaoZiHeader.h */,
+				186E143A1EB50A7000F1AF8F /* CCChiBaoZiHeader.m */,
+				186E143C1EB50AB700F1AF8F /* CCDIYAutoFooter.h */,
+				186E143D1EB50AB700F1AF8F /* CCDIYAutoFooter.m */,
+				186E143F1EB50B1E00F1AF8F /* CCDIYBackFooter.h */,
+				186E14401EB50B1E00F1AF8F /* CCDIYBackFooter.m */,
+				186E14421EB50B8C00F1AF8F /* CCDIYHeader.h */,
+				186E14431EB50B8C00F1AF8F /* CCDIYHeader.m */,
+			);
+			path = CCDIY;
+			sourceTree = "<group>";
+		};
+		186E14451EB50CCD00F1AF8F /* CCDIYTab */ = {
+			isa = PBXGroup;
+			children = (
+				186E14461EB50CE300F1AF8F /* CCDIYTab.h */,
+				186E14471EB50CE300F1AF8F /* CCDIYTab.m */,
+			);
+			path = CCDIYTab;
 			sourceTree = "<group>";
 		};
 		316C02F08A384BE6D43DC7AC /* Frameworks */ = {
@@ -256,11 +307,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				186E142D1EB4E13700F1AF8F /* CCWeb.m in Sources */,
+				186E14441EB50B8C00F1AF8F /* CCDIYHeader.m in Sources */,
+				186E14351EB5099400F1AF8F /* CCChiBaoZiFooter.m in Sources */,
 				186E14311EB4E82100F1AF8F /* CCCollection.m in Sources */,
+				186E14411EB50B1E00F1AF8F /* CCDIYBackFooter.m in Sources */,
 				186E14161EB4979B00F1AF8F /* SecondViewController.m in Sources */,
 				186E14101EB4979B00F1AF8F /* AppDelegate.m in Sources */,
 				186E14131EB4979B00F1AF8F /* FirstViewController.m in Sources */,
+				186E143E1EB50AB700F1AF8F /* CCDIYAutoFooter.m in Sources */,
+				186E14381EB50A0F00F1AF8F /* CCChiBaoZiFooter2.m in Sources */,
+				186E14481EB50CE300F1AF8F /* CCDIYTab.m in Sources */,
 				186E140D1EB4979B00F1AF8F /* main.m in Sources */,
+				186E143B1EB50A7000F1AF8F /* CCChiBaoZiHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
