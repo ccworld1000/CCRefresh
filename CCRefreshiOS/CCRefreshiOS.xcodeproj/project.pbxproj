@@ -15,6 +15,8 @@
 		186E14191EB4979B00F1AF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E14171EB4979B00F1AF8F /* Main.storyboard */; };
 		186E141B1EB4979B00F1AF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186E141A1EB4979B00F1AF8F /* Assets.xcassets */; };
 		186E141E1EB4979B00F1AF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E141C1EB4979B00F1AF8F /* LaunchScreen.storyboard */; };
+		186E142D1EB4E13700F1AF8F /* CCWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E142C1EB4E13700F1AF8F /* CCWeb.m */; };
+		186E14311EB4E82100F1AF8F /* CCCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E14301EB4E82100F1AF8F /* CCCollection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,10 @@
 		186E141A1EB4979B00F1AF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186E141D1EB4979B00F1AF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186E141F1EB4979B00F1AF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186E142B1EB4E13700F1AF8F /* CCWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWeb.h; sourceTree = "<group>"; };
+		186E142C1EB4E13700F1AF8F /* CCWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCWeb.m; sourceTree = "<group>"; };
+		186E142F1EB4E82100F1AF8F /* CCCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCollection.h; sourceTree = "<group>"; };
+		186E14301EB4E82100F1AF8F /* CCCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCollection.m; sourceTree = "<group>"; };
 		1AA260A2EC4578F30C73BD00 /* libPods-CCRefreshiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCRefreshiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42256113F67490DD7D8F7FD2 /* Pods-CCRefreshiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRefreshiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCRefreshiOS/Pods-CCRefreshiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FA2CADEBC3725F2AF06A8BE0 /* Pods-CCRefreshiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRefreshiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCRefreshiOS/Pods-CCRefreshiOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +74,8 @@
 		186E140A1EB4979B00F1AF8F /* CCRefreshiOS */ = {
 			isa = PBXGroup;
 			children = (
+				186E142E1EB4E7AE00F1AF8F /* CCCollection */,
+				186E142A1EB4E10E00F1AF8F /* CCWeb */,
 				186E140E1EB4979B00F1AF8F /* AppDelegate.h */,
 				186E140F1EB4979B00F1AF8F /* AppDelegate.m */,
 				186E14111EB4979B00F1AF8F /* FirstViewController.h */,
@@ -89,6 +97,24 @@
 				186E140C1EB4979B00F1AF8F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186E142A1EB4E10E00F1AF8F /* CCWeb */ = {
+			isa = PBXGroup;
+			children = (
+				186E142B1EB4E13700F1AF8F /* CCWeb.h */,
+				186E142C1EB4E13700F1AF8F /* CCWeb.m */,
+			);
+			path = CCWeb;
+			sourceTree = "<group>";
+		};
+		186E142E1EB4E7AE00F1AF8F /* CCCollection */ = {
+			isa = PBXGroup;
+			children = (
+				186E142F1EB4E82100F1AF8F /* CCCollection.h */,
+				186E14301EB4E82100F1AF8F /* CCCollection.m */,
+			);
+			path = CCCollection;
 			sourceTree = "<group>";
 		};
 		316C02F08A384BE6D43DC7AC /* Frameworks */ = {
@@ -229,6 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186E142D1EB4E13700F1AF8F /* CCWeb.m in Sources */,
+				186E14311EB4E82100F1AF8F /* CCCollection.m in Sources */,
 				186E14161EB4979B00F1AF8F /* SecondViewController.m in Sources */,
 				186E14101EB4979B00F1AF8F /* AppDelegate.m in Sources */,
 				186E14131EB4979B00F1AF8F /* FirstViewController.m in Sources */,
