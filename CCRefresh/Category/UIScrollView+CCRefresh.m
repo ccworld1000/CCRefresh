@@ -135,12 +135,12 @@ static const char MJRefreshReloadDataBlockKey = '\0';
 
 + (void)load
 {
-    [self exchangeInstanceMethod1:@selector(reloadData) method2:@selector(reloadData)];
+    [self exchangeInstanceMethod1:@selector(reloadData) method2:@selector(cc_reloadData)];
 }
 
-- (void)reloadData
+- (void)cc_reloadData
 {
-    [self reloadData];
+    [self cc_reloadData];
     
     [self executeReloadDataBlock];
 }
@@ -150,12 +150,12 @@ static const char MJRefreshReloadDataBlockKey = '\0';
 
 + (void)load
 {
-    [self exchangeInstanceMethod1:@selector(reloadData) method2:@selector(reloadData)];
+    [self exchangeInstanceMethod1:@selector(reloadData) method2:@selector(cc_reloadData)];
 }
 
-- (void)reloadData
+- (void)cc_reloadData
 {
-    [self reloadData];
+    [self cc_reloadData];
     
     [self executeReloadDataBlock];
 }

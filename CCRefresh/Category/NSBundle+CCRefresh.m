@@ -44,7 +44,7 @@
     
     NSDictionary *d = [CCRefreshDatabase languageDictionary];
     if (d && d.count) {
-        value = d[key];
+        value = d[[key lowercaseString]];
     }
 
     return value;
