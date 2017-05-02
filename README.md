@@ -1,7 +1,7 @@
 # CCRefresh
-##### CCRefresh: An easy way to use pull-to-refresh. Start from MJRefresh 3.1.12
+##### CCRefresh: An easy way to use pull-to-refresh. Start from MJRefresh 3.1.12. [CCRefresh: 简单滴下拉刷新。建立在MJRfresh3.1.12基础之上]
 
-support iOS
+## Support iOS
 
 [https://github.com/ccworld1000/CCRefresh.git](https://github.com/ccworld1000/CCRefresh.git)
 
@@ -9,17 +9,17 @@ support iOS
 
 Email ： <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
 
-## Custom or Translate
-[CCRefreshTranslate2DB detail](https://github.com/ccworld1000/CCRefreshTranslate2DB) 
+## ScreenShots
 
+![CCList.gif](ScreenShots/CCList.gif)
+![CCDIYTab.gif](ScreenShots/CCDIYTab.gif)
+![CCDIYTab2.gif](ScreenShots/CCDIYTab2.gif)
+![CCCollection.gif](ScreenShots/CCCollection.gif)
+![CCWeb.gif](ScreenShots/CCWeb.gif)
 
-# Reference
-[MJRefresh](https://github.com/CoderMJLee/MJRefresh) 
+# Greater than Version 2.0.0
 
-***
-
-
-# Greater than Version 1.0.0 Change
+You can use a stable version above the 2.0.0 version
 
 
 ## Podfile
@@ -29,20 +29,24 @@ pod 'CCRefresh'
 ```
 
 ***
-# Usage && Migrate
+# Usage && Migrate or See CCRefreshiOS
 ***
 
 [Usage : Similar MJRefresh
 , just repalce "MJ\*" to "CC\*"](https://github.com/CoderMJLee/MJRefresh/blob/master/README.md)
 
-
-
 ***
 
-# demo
+# demo see CCRefreshiOS
+![CCRefreshiOS.gif](ScreenShots/CCRefreshiOS.gif)
 
+## Custom or Translate
+[CCRefreshTranslate2DB detail](https://github.com/ccworld1000/CCRefreshTranslate2DB) 
 
+![Reference detail](https://github.com/ccworld1000/CCRefreshTranslate2DB/blob/master/Documentation/Reference.png?raw=true)
 
+# Other Reference
+[MJRefresh](https://github.com/CoderMJLee/MJRefresh) 
 
 # MIT License
 ***
