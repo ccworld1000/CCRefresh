@@ -22,7 +22,7 @@
     [[UIApplication sharedApplication] setStatusBarHidden: YES withAnimation: UIStatusBarAnimationNone];
     [CCStat loadingMobStat:CCStatTypeCCRefresh showDetail:NO];
     
-    [CCRefreshDatabase loadingDefaultLanguage];
+//    [CCRefreshDatabase loadingDefaultLanguage];
     
     return YES;
 }

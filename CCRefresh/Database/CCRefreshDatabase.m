@@ -90,7 +90,20 @@ NSString *const CCRefreshLanguageKey = @"CCRefreshLanguage";
     [self loadingLanguage: nil customDatabase:nil];
 }
 
++ (void) loadingDefaultCNFTLanguage {
+    [self loadingLanguage:CCRefreshLanguageCNFT customDatabase: nil];
+}
+
++ (void) loadingDefaultCNJTLanguage {
+    [self loadingLanguage:CCRefreshLanguageCNJT customDatabase: nil];
+}
+
+
 + (NSDictionary *) languageDictionary {
+    if (![self shareDatabase].varsList || ([self shareDatabase].varsList.count == 0)) {
+        [self loadingDefaultLanguage];
+    }
+    
     return [self shareDatabase].varsList;
 }
 

@@ -3,5 +3,5 @@
 
 target 'CCRefreshiOS' do
     pod 'CCStat'
-    pod 'CCRefresh'
+    pod 'CCRefresh', path: ".."
 end

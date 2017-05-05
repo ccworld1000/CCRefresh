@@ -19,7 +19,7 @@
 
 #define CCRefreshLanguageEN     @"en" //en default language
 #define CCRefreshLanguageCNFT   @"中文繁体" //中文繁体
-#define CCRefreshLanguageENJT   @"中文简体" //中文简体
+#define CCRefreshLanguageCNJT   @"中文简体" //中文简体
 
 #define CCRefreshLanguageCoustom   @"CCRefreshLanguageCoustom" //Coustom
 
@@ -27,9 +27,19 @@
 @interface CCRefreshDatabase : NSObject
 
 /**
- *  loadingDefaultLanguage | loading default
+ *  loadingDefaultLanguage | loading default en
  */
 + (void) loadingDefaultLanguage;
+
+/**
+ *  loadingDefaultCNFTLanguage | loading default CNFT
+ */
++ (void) loadingDefaultCNFTLanguage;
+
+/**
+ *  loadingDefaultCNJTLanguage | loading default CNJT
+ */
++ (void) loadingDefaultCNJTLanguage;
 
 /**
  *  loadingLanguage
