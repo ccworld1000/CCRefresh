@@ -8,6 +8,7 @@
 
 #import "CCRefreshDatabase.h"
 #import "NSBundle+CCRefresh.h"
+#import "CCRefreshConfig.h"
 #import <CCSQLite.h>
 
 NSString *const CCRefreshLanguageKey = @"CCRefreshLanguage";
@@ -101,7 +102,13 @@ NSString *const CCRefreshLanguageKey = @"CCRefreshLanguage";
 
 + (NSDictionary *) languageDictionary {
     if (![self shareDatabase].varsList || ([self shareDatabase].varsList.count == 0)) {
-        [self loadingDefaultLanguage];
+        if (globalConfigLanguageType == CCRefreshConfigLanguageTypeCNJT) {
+            [self loadingDefaultCNJTLanguage];
+        } else if (globalConfigLanguageType == CCRefreshConfigLanguageTypeCNFT) {
+            [self loadingDefaultCNFTLanguage];
+        } else {
+            [self loadingDefaultLanguage];
+        }
     }
     
     return [self shareDatabase].varsList;

@@ -10,6 +10,7 @@
 
 #import "HSUtilities.h"
 
+#import "CCRefreshConfig.h"
 #import "CCRefreshDatabase.h"
 
 #import "UILabel+CCRefresh.h"

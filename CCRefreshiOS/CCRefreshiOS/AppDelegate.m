@@ -22,7 +22,14 @@
     [[UIApplication sharedApplication] setStatusBarHidden: YES withAnimation: UIStatusBarAnimationNone];
     [CCStat loadingMobStat:CCStatTypeCCRefresh showDetail:NO];
     
-//    [CCRefreshDatabase loadingDefaultLanguage];
+    // custom your CCRefreshTranslate2DB
+    // https://github.com/ccworld1000/CCRefreshTranslate2DB
+    // [CCRefreshDatabase loadingLanguage:<#(NSString *)#> customDatabase:<#(NSString *)#>];
+    
+    //[CCRefreshConfig selectedLanguage:CCRefreshConfigLanguageTypeCNJT]; //中文简体
+    //[CCRefreshConfig selectedLanguage:CCRefreshConfigLanguageTypeCNFT]; //中文繁体
+
+    [CCRefreshConfig selectedLanguage:CCRefreshConfigLanguageTypeEN];
     
     return YES;
 }
